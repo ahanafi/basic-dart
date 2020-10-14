@@ -10,9 +10,9 @@ void main() {
 
   if (nilai > 80 && nilai <= 100) {
     pKode = "A";
-  } else if (nilai > 70 && nilai < 80) {
+  } else if (nilai > 70 && nilai <= 80) {
     pKode = "B";
-  } else if (nilai > 60 && nilai < 70) {
+  } else if (nilai > 60 && nilai <= 70) {
     pKode = "C";
   } else {
     pKode = "D";
